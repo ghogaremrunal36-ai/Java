@@ -1,6 +1,5 @@
 package practical.b;
 
-// Parent Class
 class Animal {
 
     void sound() {
@@ -8,7 +7,6 @@ class Animal {
     }
 }
 
-// Child Class
 class Dog extends Animal {
 
     @Override
@@ -17,7 +15,6 @@ class Dog extends Animal {
     }
 }
 
-// Main Class
 public class PracticalB {
 
     public static void main(String[] args) {
