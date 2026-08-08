@@ -31,7 +31,7 @@ public class JsonEncodingDecodingApp {
         System.out.println("Encoded JSON:");
         System.out.println(jsonObject.toString(2));
 
-        // Decode (JSON -> Java object)
+      
         String jsonString = jsonObject.toString();
 
         JSONObject parsed = new JSONObject(jsonString);
