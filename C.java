@@ -13,7 +13,7 @@ public class C {
 
         Scanner scanner = new Scanner(System.in);
 
-        // Menu
+       
         System.out.println("Choose an operation:");
         System.out.println("1. Insert");
         System.out.println("2. Update");
