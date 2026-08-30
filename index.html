@@ -1,29 +1,41 @@
 
 <html>
 <head>
-    <title>User Login</title>
+    <title>JSP Cookie and Session</title>
 </head>
 <body>
 
-    <h2>User Login</h2>
+<h2>A. Store User Name in Cookie</h2>
 
-    <form action="login.jsp" method="post">
+<form action="cookieStore.jsp" method="post">
+    Enter User Name:
+    <input type="text" name="username" required>
+    <input type="submit" value="Store Cookie">
+</form>
 
-        Username:
-        <input type="text" name="username" required>
-        <br><br>
+<br>
 
-        Password:
-        <input type="password" name="password" required>
-        <br><br>
+<a href="cookieDisplay.jsp">Display Cookie</a>
 
-        <input type="submit" value="Login">
+<hr>
 
-    </form>
+<h2>B. Display All Cookies</h2>
 
-    <br>
+<a href="allCookies.jsp">Display All Cookies</a>
 
-    <a href="register.html">New User? Register Here</a>
+<hr>
+
+<h2>C. Store User Name in Session</h2>
+
+<form action="sessionStore.jsp" method="post">
+    Enter User Name:
+    <input type="text" name="username" required>
+    <input type="submit" value="Store Session">
+</form>
+
+<br>
+
+<a href="sessionDisplay.jsp">Display Session</a>
 
 </body>
 </html>
