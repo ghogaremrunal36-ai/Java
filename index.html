@@ -1,41 +1,45 @@
-
+<!DOCTYPE html>
 <html>
 <head>
-    <title>JSP Cookie and Session</title>
+    <title>Cookie and Session Example</title>
 </head>
 <body>
 
-<h2>A. Store User Name in Cookie</h2>
+<h2>Cookie Example</h2>
 
-<form action="cookieStore.jsp" method="post">
+<form action="CookieStoreServlet" method="post">
+
     Enter User Name:
     <input type="text" name="username" required>
+
     <input type="submit" value="Store Cookie">
+
 </form>
 
 <br>
 
-<a href="cookieDisplay.jsp">Display Cookie</a>
+<a href="CookieReadServlet">Read Cookie</a>
+
+<br><br>
+
+<a href="DisplayCookiesServlet">Display All Cookies</a>
 
 <hr>
 
-<h2>B. Display All Cookies</h2>
+<h2>Session Example</h2>
 
-<a href="allCookies.jsp">Display All Cookies</a>
+<form action="SessionStoreServlet" method="post">
 
-<hr>
-
-<h2>C. Store User Name in Session</h2>
-
-<form action="sessionStore.jsp" method="post">
     Enter User Name:
     <input type="text" name="username" required>
+
     <input type="submit" value="Store Session">
+
 </form>
 
 <br>
 
-<a href="sessionDisplay.jsp">Display Session</a>
+<a href="SessionReadServlet">Read Session</a>
 
 </body>
 </html>
