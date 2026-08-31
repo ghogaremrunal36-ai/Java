@@ -16,7 +16,7 @@ public class CookieStoreServlet extends HttpServlet {
 
         Cookie cookie = new Cookie("username", username);
 
-        // Cookie will remain for 1 hour
+      
         cookie.setMaxAge(60 * 60);
 
         response.addCookie(cookie);
