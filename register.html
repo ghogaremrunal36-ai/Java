@@ -1,33 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>User Registration</title>
+    <title>Student Registration</title>
 </head>
 <body>
 
-    <h2>User Registration</h2>
+<h2>Student Registration</h2>
 
-    <form action="register.jsp" method="post">
+<form action="RegisterServlet" method="post">
 
-        Username:
-        <input type="text" name="username" required>
-        <br><br>
+    Name:
+    <input type="text" name="name" required>
+    <br><br>
 
-        Password:
-        <input type="password" name="password" required>
-        <br><br>
+    Email:
+    <input type="email" name="email" required>
+    <br><br>
 
-        Email:
-        <input type="email" name="email" required>
-        <br><br>
+    Password:
+    <input type="password" name="password" required>
+    <br><br>
 
-        <input type="submit" value="Register">
+    Course:
+    <input type="text" name="course" required>
+    <br><br>
 
-    </form>
+    <input type="submit" value="Register">
 
-    <br>
-
-    <a href="index.html">Back to Login</a>
+</form>
 
 </body>
 </html>
